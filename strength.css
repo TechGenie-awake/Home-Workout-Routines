@@ -1,0 +1,12 @@
+/* Strength Training Styles */
+body {
+    background-color: #fce4ec;
+}
+
+h1 {
+    color: #d81b60;
+}
+
+.workout-image {
+    border: 2px solid #d81b60;
+}

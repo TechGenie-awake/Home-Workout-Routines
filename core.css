@@ -1,0 +1,12 @@
+/* Core Workout Styles */
+body {
+    background-color: #fff3e0;
+}
+
+h1 {
+    color: #ff6f20;
+}
+
+.workout-image {
+    border: 2px solid #ff6f20;
+}
