@@ -172,6 +172,15 @@ li {
     color: #d1d1d1af;
     font-family: "Julius Sans One", sans-serif;
 }
+#description{
+    font-size: 25px;
+    font-family: "Lexend Peta", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    color: #979797;
+    padding-bottom: 80px;
+}
 .highlight{
     font-weight: bold;
     color: white;
