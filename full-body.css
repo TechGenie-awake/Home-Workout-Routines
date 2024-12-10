@@ -377,4 +377,62 @@ li {
       text-decoration: underline;
 }
 
+.afterwork{
+    position: relative;
+  }
+
+.afterwork h2{
+    color: white;
+    font-size: 50px;
+    font-family: "Faster One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.afterwork p{
+    font-size: 24px;
+    font-family: "Lexend Peta", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-top: 10px;
+}
+.afterwork li{
+    font-size: 16px;
+    font-family: "Gluten", cursive;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+    text-decoration:wavy;
+  }   
+
+.afterwork li strong{ 
+    font-size: 20px;
+    font-family: "Gluten", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+      text-decoration: underline;
+}
+
+.afterwork .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    opacity:1;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    align-content: center;
+  }
+
+
+
 
