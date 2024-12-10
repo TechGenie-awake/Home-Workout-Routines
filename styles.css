@@ -149,4 +149,74 @@ h1 {
 .card.strength-training {
     background-image: url('https://images.pexels.com/photos/3490348/pexels-photo-3490348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
 }
+.content{
+    height: 600px;
+    transition: transform 500ms ease, background-color 500ms ease, box-shadow 500ms ease;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.card:hover::before {
+    opacity: 1;
+}
+.card .content{
+    margin-top: 60px
+}
+.content h2{
+    margin-top: 40%;
+}
+.card .content {
+    margin-right: 20px;
+    align-items: center;
+    background: #1c1c1c77;
+    border-radius: 10px;
+    height: 70%;
+    width: 20%;
+    float: right;
+    padding: 10px;
+}
+
+.card .content a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(60, 96, 255, 0.736);
+}
+.content:hover{
+    transform: scale(1.1);
+    background-color: black;
+    box-shadow: 5px 10px 10px lightblue;
+}
+h2,h3,p,a{
+    animation-name: scroll;
+    animation: scroll 6s linear ease;
+    animation-timeline: view();
+    animation-range: entry 0% cover 90%;
+}
+@keyframes scroll {
+	from {
+        opacity: 0;
+		transform: translateY(100px);
+	}
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.card .content{ 
+    animation-name: scroll2;
+    animation: scroll2 6s linear ease;
+    animation-timeline: view();
+    animation-range: entry 0% cover 90%;
+}
+@keyframes scroll2 {
+	from {
+        opacity: 0;
+		transform: translateX(100px);
+	}
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
