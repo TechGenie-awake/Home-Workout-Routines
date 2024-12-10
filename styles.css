@@ -121,3 +121,32 @@ h1 {
     background: #a2b6df;
     color: white;
 }
+.card.full-body {
+    background-image: url('https://images.pexels.com/photos/6516178/pexels-photo-6516178.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+
+}
+
+
+.card.hiit {
+    background-image: url('https://images.pexels.com/photos/6388391/pexels-photo-6388391.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+}
+
+
+.card.yoga {
+    background-image: url('https://images.pexels.com/photos/3094215/pexels-photo-3094215.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+}
+
+
+.card.core {
+    background-image: url('https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+}
+
+
+.card.cardio-blast {
+    background-image: url('https://images.pexels.com/photos/28080/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+}
+
+.card.strength-training {
+    background-image: url('https://images.pexels.com/photos/3490348/pexels-photo-3490348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+}
+
